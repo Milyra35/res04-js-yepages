@@ -1,4 +1,4 @@
-import {listBooks} from './data/data-books.js';
+import {listBooks} from '../data/data-books.js';
 import {Book} from './Book.js';
 
 class Library {
@@ -17,7 +17,7 @@ class Library {
     
     load(bookList) {
         let newList;
-        for (let i=0, i<bookList.length; i++)
+        for (let i=0; i<listBooks.length; i++)
         {
             newList = new Book(
                 listBooks[i].title, 
