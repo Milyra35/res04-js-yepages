@@ -1,56 +1,56 @@
 let listBooks = [
     {
         title : "Harry Potter à l'école des sorciers",
-        category : "Fantasy jeunesse",
+        category : "Fantasy Jeunesse",
         author : "J.K. Rowling",
         resume : "",
         image : "assets/images/hp1.jpg"
     },
     {
         title : "Cartographie des nuages",
-        category : "Science fiction adulte",
+        category : "Science-Fiction Adulte",
         author : "David Mitchell",
         resume : "",
         image : "assets/images/Cloud_atlas.jpg"
     },
     {
         title : "La communauté de l'anneau",
-        category : "Fantasy adulte",
+        category : "Fantasy Adulte",
         author : "J.R.R. Tolkien",
         resume : "",
         image : "assets/images/lotr.jpg"
     },
     {
         title : "Truth of the divine",
-        category : "Science fiction adulte",
+        category : "Science-Fiction Adulte",
         author : "Lindsay Ellis",
         resume : "",
         image : "assets/images/truth-of-the-divine.jpeg"
     },
     {
         title : "La guerre des mondes",
-        category : "Science fiction adulte",
+        category : "Science-Fiction Adulte",
         author : "H.G. Wells",
         resume : "",
         image : "assets/images/war-of-the-worlds.jpeg"
     },
     {
         title : "Ensemble c'est tout",
-        category : "Romance adulte",
+        category : "Romance Adulte",
         author : "Ana Gavalda",
         resume : "",
         image : "assets/images/ensemble.jpeg"
     },
     {
         title : "Misery",
-        category : "Horreur adulte",
+        category : "Horreur Adulte",
         author : "Stephen King",
         resume : "",
         image : "assets/images/misery.jpg"
     },
     {
         title : "Pars vite et reviens tard",
-        category : "Polar adulte",
+        category : "Polar Adulte",
         author : "Fred Vargas",
         resume : "",
         image : "assets/images/pars-vite.jpg"

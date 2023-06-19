@@ -65,13 +65,25 @@ class Library {
     }
     
     findBookByCategory(category) {
+        let listOfBooks = [];
+        
         for (let i=0; i<this.#shelf.length; i++)
         {
             if (this.#shelf[i].category === category)
             {
-                return this.#shelf[i];
+                listOfBooks.push(this.#shelf[i]);
             }
         }
+        return listOfBooks;
+    }
+    
+    getCategories() {
+        let listOfCat = [];
+        for (let i=0; i<this.#shelf.length; i++)
+        {
+            listOfCat.push(this.#shelf[i].category);
+        }
+        return listOfCat;
     }
 }
 

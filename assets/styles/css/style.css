@@ -90,10 +90,10 @@ header section:nth-of-type(2) div button:first-of-type:hover {
 header section:nth-of-type(2) div button:nth-of-type(2) {
     background-color:var(--emerald);
     border:1px solid var(--emerald);
+    color:var(--midnight-green);
 }
 header section:nth-of-type(2) div button:nth-of-type(2):hover {
     background-color:rgba(255, 255, 255, .8);
-    color:var(--emerald);
 }
 
 /**** MAIN ****/
@@ -124,7 +124,7 @@ main section article {
     justify-content:flex-end;
     width:calc(100% / 3);
     height:30rem;
-    margin-bottom:.5rem;
+    margin-bottom:1.6rem;
     padding:.3rem 0;
 }
 main section article img {
@@ -164,7 +164,60 @@ main > button {
     padding:.5rem 1rem;
     cursor:pointer;
 }
+main > button a {
+    text-decoration:none;
+    color:#fff;
+}
+main > button a:hover {
+    color:var(--bright-pink-crayola);
+}
 main > button:hover {
     background-color:#fff;
     color:var(--bright-pink-crayola);
+}
+
+
+/**** PAGE CATALOGUE ****/
+header section:nth-of-type(2) .title {
+    color:var(--emerald);
+}
+
+main .catalog {
+    border-bottom:4px solid var(--emerald);
+}
+
+main article {
+    display:flex;
+    width:100%;
+}
+main article aside {
+    align-self:flex-start;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+}
+main article aside h3 {
+    margin:0;
+    text-transform:uppercase;
+    text-align:left;
+}
+main article aside ul {
+    padding:0;
+    list-style:none;
+}
+main article aside ul li {
+    line-height:1.5rem;
+    font-size:.9rem;
+    cursor:pointer;
+}
+
+main article .list-of-books {
+    border-left:1px solid black;
+    width:80%;
+}
+main article .list-of-books article {
+    width:calc(100% / 4);
+}
+
+.inactive {
+    display:none;
 }
