@@ -20,13 +20,14 @@ class Library {
         for (let i=0; i<listBooks.length; i++)
         {
             newList = new Book(
-                listBooks[i].title, 
-                listBooks[i].category, 
-                listBooks[i].author, 
-                listBooks[i].resume, 
-                listBooks[i].image);
+                bookList[i].title, 
+                bookList[i].category, 
+                bookList[i].author, 
+                bookList[i].resume, 
+                bookList[i].image);
+                
+            this.#shelf.push(newList);
         }
-        this.#shelf.push(newList);
     }
     
     addBook(book) {
@@ -38,7 +39,7 @@ class Library {
         {
             if (this.#shelf[i].title === book.title && this.#shelf[i].author === book.author)
             {
-                this.#shelf.splice(this.#shelf[i], 1);
+                this.#shelf.splice(i, 1);
             }
         }
     }
